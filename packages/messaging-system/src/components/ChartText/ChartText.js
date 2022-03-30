@@ -13,5 +13,5 @@ export const ChartText = () => {
     );
 };
  
-
+export default ChartText;
 
