@@ -4,12 +4,13 @@ import styles from '../styles/Home.module.scss';
 
 import {
   Demo,
+  Places,
   Geolocation,
   MessagingSystem,
-  ChartText,
   AdminPanel,
   Authentication,
   LoginButton,
+  UserAccount,
 } from '@booking-ui/shared';
 
 export default function Home() {
@@ -26,11 +27,12 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <Demo />
+        <Places />
         <Geolocation />
         <MessagingSystem />
-        <ChartText />
         <AdminPanel />
         <Authentication />
+        <UserAccount />
         <LoginButton label="Not login" />
         <p className={styles.description}>
           Get started by editing{' '}
